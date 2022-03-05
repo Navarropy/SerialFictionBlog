@@ -1,0 +1,32 @@
+.homepage-story {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    background: rgb(44, 44, 44);
+
+    h2 {
+      color: white;
+    }
+
+    &-list {
+      width: 100%;
+      min-height: 15vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .homepage-story-item {
+        width: 10vw;
+        height: 35vh;
+        background: cyan;
+        margin: 0.5%;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+    }
+  }

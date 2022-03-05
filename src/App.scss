@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vh;
+  overflow-y: scroll;
 }
 
 #root {
@@ -20,74 +21,4 @@ body {
 
 .test {
   background: red;
-}
-
-.main-Container {
-  min-width: 100%;
-  min-height: 100vh;
-  position: absolute;
-  z-index: 600;
-  display: flex;
-  flex-direction: column;
-  background: rgb(38, 38, 38);
-
-  .homepage-story {
-    width: 100%;
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5%;
-
-    h2 {
-      color: white;
-    }
-
-    &-list {
-      width: 100%;
-      min-height: 15vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-
-      .homepage-story-item {
-        width: 12vw;
-        height: 35vh;
-        background: cyan;
-        margin: 0.5%;
-      }
-    }
-  }
-
-  .stats-container {
-    width: 100%;
-    min-height: 15vh;
-    background: rgb(22, 22, 22);
-
-    .person-of-the-week {
-      width: 100%;
-      min-height: 15vh;
-      display: flex;
-      background: rgb(36, 36, 36);
-
-      .reddit {
-        width: 50%;
-        min-height: 25vh;
-        // border-right: 3px rgba(0, 0, 0, 0.405) solid;
-      }
-
-      .discord {
-        width: 50%;
-        min-height: 25vh;
-      }
-    }
-
-    .art-of-the-week {
-      width: 100%;
-      min-height: 25vh;
-      background: rgb(21, 21, 21);
-    }
-  }
 }

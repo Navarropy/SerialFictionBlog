@@ -1,0 +1,34 @@
+.TheoryOfTheWeek {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    span {
+        display: flex;
+        align-self: flex-end;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .read-more {
+        font-weight: bold;
+        width: 50%;
+        border-top: 1px rgba(0, 0, 0, 0.405) solid;
+        align-self: center;
+        margin: 2%;
+        text-align: center;
+        padding: 1%;
+    }    
+}

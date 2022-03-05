@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.796);
+    padding: 3% 0 3% 0;
+
+    .wrapper {
+        min-height: 100%;
+        background: rgb(53, 53, 53);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+
+        h2 {
+            margin: 0;
+            font-size: 15px;
+            align-self: flex-start;
+            border-bottom: 1px rgba(0, 0, 0, 0.405) solid;
+            padding-bottom: 1%;
+        }
+    
+    }
+  }

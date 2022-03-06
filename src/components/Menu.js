@@ -11,7 +11,6 @@ export default function Menu() {
                 </div>
                 <div className="right-container">
                     <Link to="/Chapter">Chapter</Link>
-                    <Link to="/Story">Story</Link>
                 </div>
             </nav>
             <div className="ghost-nav"></div>

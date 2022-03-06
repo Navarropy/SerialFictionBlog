@@ -13,20 +13,31 @@
 
     .wrapper {
         min-height: 100%;
-        background: rgb(53, 53, 53);
+        background-image: linear-gradient(to right bottom, #212121, #222222, #222222, #232323, #242424, #262626, #292929, #2b2b2b, #2f2f2f, #343434, #383838, #3d3d3d);
+        background-size: cover;
+        background-repeat: no-repeat;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 2%;
+        border-radius: 15px;
+
+        img {
+            padding: 2%;
+            background-color: #e5e5f7;
+            background-color: #e5e5f7;
+            opacity: 0.7;
+            background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #36363655, #363636 );
+        }
 
         h2 {
             margin: 0;
             font-size: 15px;
             align-self: flex-start;
-            border-bottom: 1px rgba(0, 0, 0, 0.405) solid;
+            border-bottom: 1px rgba(118, 118, 118, 0.405) solid;
             padding-bottom: 1%;
+            color: white;
         }
-    
     }
   }

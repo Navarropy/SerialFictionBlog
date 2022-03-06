@@ -1,3 +1,7 @@
+$primary: rgb(255, 255, 255);
+$secondary: rgb(184, 184, 184);
+$tertiary: rgb(72, 72, 72);
+
 .homepage-story {
     width: 100%;
     min-height: 50vh;
@@ -6,10 +10,11 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 5%;
-    background: rgb(44, 44, 44);
+    border-bottom-right-radius: 225px;
+    background-image: linear-gradient(to right bottom, #212121, #222222, #222222, #232323, #242424, #262626, #292929, #2b2b2b, #2f2f2f, #343434, #383838, #3d3d3d);
 
     h2 {
-      color: white;
+      color: $primary;
     }
 
     &-list {

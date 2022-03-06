@@ -1,0 +1,15 @@
+$primary: rgb(194, 194, 194);
+$secondary: rgb(165, 165, 165);
+$tertiary: rgb(128, 128, 128);
+
+.primary {
+    color: $primary !important;
+}
+
+.secondary {
+    color: $secondary !important;
+}
+
+.tertiary {
+    color: $tertiary !important;
+}

@@ -6,6 +6,7 @@ import "../Colors.scss"
 import Container from '../components/Container';
 import HomepageStory from '../components/Homepage-story';
 import Footer from "../components/Footer";
+import Redditor from "../components/Redditor";
 
 export default function Home() {
     return(
@@ -24,14 +25,7 @@ export default function Home() {
                     </div>
                 </Container>
                 <div className="person-of-the-week">
-                <div className="reddit">
-                    <Container width="90%" title={"Redditor of the Week"}>
-                    <div className="person">
-                        <img src="https://i.imgur.com/7bGaqg7.jpg" width="120px" height="120px" />
-                        <div className="person-data tertiary"><strong>@User</strong> was the most active person on <strong>/r/Heavark</strong> this week, engaging on <strong>X</strong> topics.</div>
-                    </div>
-                    </Container>
-                </div>
+                <Redditor />
                 <div className="discord">
                     <Container width="90%" title={"Discorder of the Week"}>
                         <div className="person">
